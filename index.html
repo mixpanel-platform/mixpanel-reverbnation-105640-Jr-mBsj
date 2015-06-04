@@ -42,10 +42,10 @@
           eventGraphOne.MPChart('setData', results);
         });
         MP.api.segment('DiscoveryApp.ProvideRatingQuestionAnswered', params).done(function(results) {
-          eventGraphOne.MPChart('setData', results);
+          eventGraphTwo.MPChart('setData', results);
         });
         MP.api.segment('DiscoveryApp.ProvideFeedbackQuestionAnswered', params).done(function(results) {
-          eventGraphOne.MPChart('setData', results);
+          eventGraphThree.MPChart('setData', results);
         });
         
       };
