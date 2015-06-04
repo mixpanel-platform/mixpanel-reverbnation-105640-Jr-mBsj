@@ -29,6 +29,7 @@
         from: moment().subtract(1, 'months'),
         to: moment(),
         type: 'general',
+        where: 'properties["$os"] == "Android"'
         on: 'properties["Answer"]'
       }
 
